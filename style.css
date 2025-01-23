@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius&family=Pacifico&family=Shadows+Into+Light&display=swap');
+body{
+    
+    .box {
+        background-color: yellowgreen;
+    }
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .box1{
+        color: blue;
+        padding: 10px;
+        margin: 5px;
+        border: 2px solid black;
+        height: 20vh;
+        box-sizing: border-box;
+    }
+.box2{                            /*   margin colaps concept */
+        color: red;
+        padding: 10px;
+        margin: 8px;
+        border: 2px solid rgb(244, 15, 15);
+        height: 20vh;
+        box-sizing: border-box;
+    }
+
+    p{
+        
+        font-family: "Shadows Into Light", serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 3;
+  letter-spacing: 2px;
+  
+
+    }
+    h1{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-style: italic;
+        font-weight: 200;
+        text-decoration-line: underline;
+        text-indent: 45px;
+        text-decoration-thickness:7px ;
+        text-align: center;
+    }
+    h2{
+        text-transform: lowercase;
+        
+    }
+    .lorem{
+        border:2px solid red;
+        width:45px;
+        text-overflow: ellipsis;
+        overflow:hidden;
+        /* word-break:normal; */
+    }
+    li{
+        /* color: blanchedalmond; */
+        color: #ff1414;
+/* color:rgb(rgb(178, 37, 178) */
+/* color:rgba(45, 23, 4, 0.4) */
+/* color:hsl(56,45%, 23%) */
+
+
+    }
+}
